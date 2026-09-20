@@ -29,7 +29,8 @@
   ],
   "license": "MIT",
   "engines": {
-    "dsh": ">=0.0.1"
+    "dsh": ">=0.0.1",
+    "node": "^22.19.0 || >=24.0.0"
   },
   "repository": {
     "type": "git",
@@ -50,5 +51,6 @@
   "peerDependencies": {
     "@deepseek-ai/cordis": "^4.0.1-rc.1",
     "@deepseek-ai/schemastery": "^3.18.1"
-  }
+  },
+  "packageManager": "pnpm@11.7.0"
 }
