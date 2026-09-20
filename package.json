@@ -1,7 +1,7 @@
 {
   "name": "dsh-file-mentions",
-  "version": "1.0.14",
-  "description": "Clickable file paths in DSH replies: open files/directories from inline paths (Codex-style), with a mentioned-files chip list as fallback",
+  "version": "1.0.15-fork.1",
+  "description": "Clickable file paths in DSH replies: open files/directories from inline paths (Codex-style), with a mentioned-files chip list as fallback [fork: inline clicks → sidebar preview]",
   "type": "module",
   "main": "lib/index.js",
   "scripts": {
@@ -33,7 +33,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/a903067276-rgb/dsh-file-mentions.git"
+    "url": "https://github.com/tayuLuc/dsh-file-mentions.git"
   },
   "dsh": {
     "bundle": {
