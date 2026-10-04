@@ -4,3 +4,4 @@ pnpm-lock.yaml
 .DS_Store
 dist/
 .tmp/
+package-lock.json

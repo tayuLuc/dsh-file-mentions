@@ -19,6 +19,13 @@ Inline paths wrapped in backticks (`` `~/...` ``, absolute, relative, or Chinese
 file manager; a "📎 mentioned files" chip list at the turn tail covers the rest. URLs are
 already auto-linked by the official renderer, so this plugin leaves them alone.
 
+**Line references (fork).** A reference written the way notes are cited — `note.md:12`,
+`/abs/path/file.ts:7-20` — opens the file and jumps to the line. The core renderer already
+understands the fragment spelling (`note.md#L12`) but passes the colon spelling straight to the
+filesystem, where the suffix becomes ENOENT; this fork strips it before the read and hands the
+line to the editor. A Windows drive letter (`C:\x.md:12`) and an authority colon
+(`http://host:8080/a.md`) are left intact.
+
 ![External-drive whitelist settings](assets/screenshot-settings.png)
 
 The external-drive whitelist (Settings → Plugins → file-mentions): **local files in your home
